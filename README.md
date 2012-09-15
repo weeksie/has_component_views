@@ -1,3 +1,20 @@
+# HasComponentViews
+
+Handling child views in Backbone can be a bit of a pain in the arse
+and at minumum requires writing a lot of boilerplate code. This
+component is a small add on to make handling of child components more
+declarative and less verbose. It was developed at
+[Plyfe](https://www.plyfe.me) for our very front-end heavy social
+gaming application. Dig around and have fun! (PS, [we're
+hiring](https://www.plyfe.me/jobs))
+
+## Requirements
+
+* underscore
+* backbone
+* jquery (or whatever `$` lib)
+* inflection (included under lib)
+
 ## Example usage
 
 ### View
@@ -43,4 +60,5 @@ In this case the `Header` view will be instantiated with the following values:
 ```
 
 Values passed are tested in the following order: `_.isFunction(this[value]), this[value], value`
+
 
