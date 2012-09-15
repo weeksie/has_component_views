@@ -20,7 +20,7 @@ hiring](https://www.plyfe.me/jobs))
 ### View
 
 ```javascript
-    var TopLevel = Backbone.View.exten({
+    var TopLevel = Backbone.View.extend({
       components: [ "Header", "BodyContent" ],
       initialize: function() {
         this.model.on("change", this.render, this);
