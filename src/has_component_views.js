@@ -1,3 +1,7 @@
+//  HasCompnentViews 0.1
+//  (c) 2012 Scotty Weeks, Plyfe
+//  HasComponentViews may be freely distributed under the MIT license.
+
 (function(){
   // Example usage:
   //  View:
